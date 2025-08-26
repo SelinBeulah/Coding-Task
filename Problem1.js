@@ -1,39 +1,39 @@
 // Small Calculator Which performs operations such as add, sub, multiply, division...
 
-let num1 = 20;
-let num2 = 7
+let a = 20;
+let b = 7
 
 // addition Function
-function add(num1, num2) {
-    return num1 + num2
+function add(a, b) {
+    return a + b
 }
-console.log(`Addition: ${add(num1, num2)}`);
+console.log(`Addition: ${add(a, b)}`);
 
 
 
 // Subraction Function
-function sub(num1, num2) {
-    return num1 - num2
+function sub(a, b) {
+    return a - b
 }
-console.log(`Subraction: ${sub(num1, num2)}`);
+console.log(`Subraction: ${sub(a, b)}`);
 
 
 // Multiplication Function
-function multiply(num1, num2) {
-    return num1 * num2
+function multiply(a, b) {
+    return a * b
 }
-console.log(`Muliplication: ${multiply(num1, num2)}`);
+console.log(`Muliplication: ${multiply(a, b)}`);
 
 // Division Function
-function div(num1, num2) {
-    if (num2 === 0) {
+function div(a, b) {
+    if (b === 0) {
         return "Cannot Divide by zero"
     }else{
-        return num1 / num2
+        return a / b
     }
 }
 
-// console.log(`Division: ${div(num1, num2)}`);
-// If num2 value will be zero then we will use this one
+// console.log(`Division: ${div(a, b)}`);
+// If b value will be zero then we will use this one
 
-console.log(`Division: ${div(num1, num2).toFixed(2)}`);
+console.log(`Division: ${div(a, b).toFixed(2)}`);
