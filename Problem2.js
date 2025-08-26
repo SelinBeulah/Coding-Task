@@ -13,3 +13,5 @@ odd_Func(1);
 odd_Func(2);
 odd_Func(3);
 odd_Func(4);
+odd_Func(5);
+odd_Func(6);
